@@ -1,0 +1,32 @@
+{
+  "name": "FirefoxOSApp",
+  "description": "Basic app",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "orientation": "portrait",
+  "developer": {
+    "name": "Borja Salguero & Francisco Jordano",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "locales": {
+    "es": {
+      "name": "Aplicación básica",
+      "description": "Aplicación básica en FirefoxOS"
+    },
+    "en-US": {
+      "name": "Basic App",
+      "description": "FirefoxOS Basic app"
+    }
+  },
+  "permissions": {
+    "desktop-notification":{}
+  },
+  "messages": [
+    { "notification": "/index.html" }
+  ],
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/icons/128.jpg",
+    "60": "/icons/60.jpg"
+  }
+}
