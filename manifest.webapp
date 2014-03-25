@@ -1,6 +1,6 @@
 {
-  "name": "FirefoxOSApp",
-  "description": "Basic app",
+  "name": "CertifiedApp",
+  "description": "Certified app",
   "launch_path": "/index.html",
   "type": "certified",
   "orientation": "portrait",
@@ -10,20 +10,14 @@
   },
   "locales": {
     "es": {
-      "name": "Aplicación básica",
-      "description": "Aplicación básica en FirefoxOS"
+      "name": "Aplicación certificada",
+      "description": "Aplicación certificada en FirefoxOS"
     },
     "en-US": {
-      "name": "Basic App",
-      "description": "FirefoxOS Basic app"
+      "name": "Certified App",
+      "description": "FirefoxOS Certified app"
     }
   },
-  "permissions": {
-    "desktop-notification":{}
-  },
-  "messages": [
-    { "notification": "/index.html" }
-  ],
   "default_locale": "en-US",
   "icons": {
     "128": "/icons/128.jpg",
